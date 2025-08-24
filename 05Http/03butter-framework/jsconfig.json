@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "target": "ES2022",
+    "module": "commonjs",
+    "typeRoots": ["./node_modules/@types", "./"],
+    "moduleResolution": "node"
+  },
+  "include": ["./**/*.js", "./butter.d.ts"]
+}
