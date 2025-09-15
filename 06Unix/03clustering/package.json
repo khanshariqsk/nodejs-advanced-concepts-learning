@@ -1,0 +1,18 @@
+{
+  "name": "03clustering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "cluster": "node cluster.js"
+  },
+  "dependencies": {
+    "cpeak": "^1.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
