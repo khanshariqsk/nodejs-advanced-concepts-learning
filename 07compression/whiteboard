@@ -1,0 +1,40 @@
+1164 bytes
+
+Mr. Bingley => 11 * 3 = 33 bytes
+(11 * 8) + (2 * 20) = 128 bits / 8 = 16 bytes
+17 bytes reduced! (136 bits)
+
+
+Bingley
+Bennet
+all
+with
+the
+her
+daughters
+could
+was
+delight
+and
+hopes
+
+
+[16, 4]
+20 bits
+
+--------------
+
+1/14 + 1/120 ... => 1
+
+t => 83 times (83 bytes)
+v => 9 times (9 bytes)
+
+92 bytes (736 bits)
+
+
+1010 => t
+10111111 => v 
+
+
+(83 * 4) + (9 * 8) = 404 bits
+

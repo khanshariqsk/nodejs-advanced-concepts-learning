@@ -1,0 +1,28 @@
+You can use this code to generate this file on your machine:
+
+const fs = require("fs");
+
+const outputFileName = "./AAA.txt";
+
+// Size of the file we want to create
+const fileSizeBytes = 10 * 1024 * 1024 * 1024; // 10 GiB
+
+// Buffer size in bytes
+const bufferSize = 1024 * 1024; // 1 MiB
+
+// Create a buffer filled with "A"
+const buffer = Buffer.alloc(bufferSize, "A");
+
+// Open the file for writing
+const fd = fs.openSync(outputFileName, "w");
+
+let bytesWritten = 0;
+
+while (bytesWritten < fileSizeBytes) {
+  fs.writeSync(fd, buffer);
+  bytesWritten += bufferSize;
+}
+
+fs.closeSync(fd);
+
+console.log(`Finished writing ${fileSizeBytes} bytes to ${outputFileName}`);

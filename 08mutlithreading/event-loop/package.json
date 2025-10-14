@@ -1,0 +1,11 @@
+{
+  "name": "event-loop",
+  "version": "1.0.0",
+  "main": "",
+  "scripts": {
+    "debug": "node ex-emitter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
